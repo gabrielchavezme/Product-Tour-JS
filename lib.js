@@ -115,7 +115,7 @@ window.ProductTourJS = {
 	
 	navigationInit : function(){
 		
-		let html = '<div class="product-tour-js-nav"><span class="product-tour-js-nav-numeric"><b class="product-tour-js-actual-step">1</b> of ' + this.totalSteps + '</span><ul class="product-tour-js-tour-nav"><li><a href="#0" class="product-tour-js-prev">' + this.options.prev + '</li><li><a href="#0" class="product-tour-js-next">' + this.options.next + '</a></li></ul></div><a href="#0" class="product-tour-js-close js-product-tour-js-tour-close">Close</a>';
+		let html = '<div class="product-tour-js-nav"><span class="product-tour-js-nav-numeric"><b class="product-tour-js-actual-step">1</b> de ' + this.totalSteps + '</span><ul class="product-tour-js-tour-nav"><li><a href="#0" class="product-tour-js-prev">' + this.options.prev + '</li><li><a href="#0" class="product-tour-js-next">' + this.options.next + '</a></li></ul></div><a href="#0" class="product-tour-js-close js-product-tour-js-tour-close">Close</a>';
 		let self = this;
 		
 		$.each(this.tips, function( tipIndex ){
